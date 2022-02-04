@@ -13,6 +13,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
 }
 
 .my-name {
@@ -31,9 +32,9 @@ header {
   font-family: 'Lora', serif;
   position: absolute;
   font-size: 23px;
-  top: 22%;
+  top: 85%;
   color:whitesmoke;
-  background-color: darkslategrey;
+  background-color: rgb(56, 54, 54);
   padding: 20px 120px;
 }
 
@@ -50,16 +51,23 @@ header {
 .personal-info {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  width: 50%;
-  margin: 40px;
-  margin-top: 80px;
+  max-width: 50%;
+  margin-left: 120px;
+  margin-top: 50px;
 }
 
 h3.title {
   text-align: start;
   margin-bottom: 15px;
-} 
+}
+
+.personal-info {
+  margin-top: 100px;
+}
+
+.personal-info div {
+  margin-bottom: 40px;
+}
 
 .personal-profile .text {
   width: 300px;
@@ -91,5 +99,14 @@ span.contact {
 span a {
   text-decoration: none;
   color: #666;
+}
+
+.vertical-line {
+  width: 2px;
+  background-color: #F5F6F7;
+}
+
+.experience-info {
+  max-width: 50%;
 }
 
