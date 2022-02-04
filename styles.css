@@ -22,7 +22,7 @@ header {
   font-weight: 600;
   padding: 50px;
   padding-bottom: 60px;
-  color:rgb(224, 224, 224);
+  color:rgb(255, 248, 248);
   background-color: gray;
   text-align: center;
 }
@@ -38,6 +38,7 @@ header {
 }
 
 .info {
+  font-family: 'Encode Sans', sans-serif;
   display: flex;
   height: 100vh;
   width: 1000px;
@@ -49,9 +50,46 @@ header {
 .personal-info {
   display: flex;
   flex-direction: column;
-  text-align: start;
+  justify-content: space-evenly;
   width: 50%;
   margin: 40px;
   margin-top: 80px;
+}
+
+h3.title {
+  text-align: start;
+  margin-bottom: 15px;
+} 
+
+.personal-profile .text {
+  width: 300px;
+  color: #666;
+  line-height: 22px;
+  text-align: justify;
+}
+
+.personal-profile .text::first-letter {
+  margin-left: 15px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.strengths-list li {
+  color: #666;
+  line-height: 22px;
+  text-align: start;
+}
+
+span.contact {
+  display: block;
+  color: #666;
+  line-height: 22px;
+  text-align: start;
+  margin: 5px 0px;
+}
+
+span a {
+  text-decoration: none;
+  color: #666;
 }
 
