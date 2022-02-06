@@ -61,15 +61,15 @@ h3.title {
   margin-bottom: 15px;
 }
 
-.personal-info {
+.personal-info, .experience-info {
   margin-top: 100px;
 }
 
-.personal-info div {
+.personal-info article {
   margin-bottom: 40px;
 }
 
-.personal-profile .text {
+.text {
   width: 300px;
   color: #666;
   line-height: 22px;
@@ -82,7 +82,7 @@ h3.title {
   font-weight: 600;
 }
 
-.strengths-list li {
+article li {
   color: #666;
   line-height: 22px;
   text-align: start;
@@ -107,6 +107,20 @@ span a {
 }
 
 .experience-info {
-  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: 120px;
+  margin-top: 50px;
 }
+
+.experience-info {
+  margin-top: 100px;
+}
+
+.experience-info article {
+  margin-bottom: 40px;
+}
+
+
 
