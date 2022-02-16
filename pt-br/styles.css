@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+body {
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.my-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  background-color: gray;
+}
+
+.my-photo {
+  max-height: 200px;
+  border: 1px solid black;
+}
+
+.my-name {
+  max-height: 200px;
+  font-family: 'Encode Sans', sans-serif;
+  max-width: 1000px;
+  font-size: 70px;
+  font-weight: 600;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding: 30px;
+  color:rgb(255, 248, 248);
+  background-color: gray;
+  text-align: center;
+}
+
+.role {
+  font-family: 'Lora', serif;
+  position: absolute;
+  font-size: 23px;
+  top: 85%;
+  color:whitesmoke;
+  background-color: rgb(56, 54, 54);
+  padding: 20px 120px;
+}
+
+.info {
+  font-family: 'Encode Sans', sans-serif;
+  display: flex;
+  height: 110vh;
+  width: 1000px;
+  margin: auto;
+  text-align: center;
+  border: 1px solid black;
+  border-bottom: none;
+}
+
+.personal-info {
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+  margin-left: 120px;
+  margin-top: 50px;
+}
+
+h3.title {
+  text-align: start;
+  margin-bottom: 15px;
+}
+
+.personal-info, .experience-info {
+  margin-top: 100px;
+}
+
+.personal-info article {
+  margin-bottom: 40px;
+}
+
+.text {
+  width: 300px;
+  color: #666;
+  line-height: 22px;
+  text-align: justify;
+}
+
+.personal-profile .text::first-letter {
+  margin-left: 15px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+article li {
+  color: #666;
+  line-height: 22px;
+  text-align: start;
+}
+
+span.contact {
+  display: block;
+  color: #666;
+  line-height: 22px;
+  text-align: start;
+  margin: 5px 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #666;
+}
+
+.vertical-line {
+  height: 70vh;
+  width: 2px;
+  background-color: #F5F6F7;
+}
+
+.horizontal-line {
+  position: absolute;
+  top: 960px;
+  height: 2px;
+  width: 1000px;
+  background-color: #F5F6F7;
+}
+
+.experience-info {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: 120px;
+  margin-top: 50px;
+}
+
+.experience-info {
+  margin-top: 100px;
+}
+
+.experience-info article {
+  margin-bottom: 40px;
+}
+
+.experience-info .academic-history {
+  width: 400px;
+}
+
+.strengths-list a {
+  color:rgb(102, 102, 175);
+}
+
+.technical-skills {
+  display: flex;
+}
